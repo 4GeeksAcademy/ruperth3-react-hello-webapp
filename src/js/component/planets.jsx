@@ -24,7 +24,7 @@ const Planets = () => {
             onError={(e) => (e.target.src = "https://starwars-visualguide.com/assets/img/placeholder.jpg")}
             className="firstImg"
             src={`https://starwars-visualguide.com/assets/img/planets/${elem.id}.jpg`}
-            alt={elem.name} // Añadido para accesibilidad
+            alt={elem.name} 
           />
           <div className="card-body">
             <h5 className="card-title">{elem.name}</h5>
