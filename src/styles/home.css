@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 300px;
+    max-height: 200px;
+    text-align: center;
+    align-items: center;
+}
+
+.carrousel {
+    overflow-x: scroll;
+    display: flex;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 20px;
+    color: aqua;
+}
+
+.firstImg {
+    max-height: 280px;
+}
+
+* {
+    scrollbar-color: black purple;
+}
+
+#holaimg {
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, black, purple, black) 1;
+}
+
+#middletittles {
+    text-align: center;
+    color: white;
+}
+
+#navBarsito {
+    background: linear-gradient(45deg, purple, black);
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
